@@ -20,6 +20,7 @@ Project End Date: January 16, 2021
 	- AP News
 	- News API
 	- The Guardian
+
 2. Collect market data for the last 16 months (January 2016 - December 2020) from DJIA, S&P500, and Russell 2000 (Shrey, Brandon)
 2. Leverage **spaCy** Natural Language Processing to determine sentiment of articles by time period and by type (Aaron)
 3. Correlate sentiments to market movements (Hunter, Aaron)
