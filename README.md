@@ -20,13 +20,8 @@ Project End Date: January 16, 2021
 	- AP News
 	- News API
 	- The Guardian
-<<<<<<< HEAD
 2. Collect market data for the last 48 months (January 2016 - December 2020) from DJIA, S&P500, and Russell 2000 (Shrey, Brandon)
-=======
-
-2. Collect market data for the last 16 months (January 2016 - December 2020) from DJIA, S&P500, and Russell 2000 (Shrey, Brandon)
->>>>>>> 4836d7d64bde89af409f51abed944933043b89a8
-2. Leverage **spaCy** Natural Language Processing to determine sentiment of articles by time period and by type (Aaron)
-3. Correlate sentiments to market movements (Hunter, Aaron)
-4. Train model to determine sentiment and predict future impact of current articles (Shana)
-5. Create presentation for project (Team)
+3. Leverage **spaCy** Natural Language Processing to determine sentiment of articles by time period and by type (Aaron)
+4. Correlate sentiments to market movements (Hunter, Aaron)
+5. Train model to determine sentiment and predict future impact of current articles (Shana)
+6. Create presentation for project (Team)
