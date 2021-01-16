@@ -1,6 +1,6 @@
 # UNCC Fintech Bootcamp Project 2
-# Stock Voice
-### Analyzing the last 16 months of news to determine which types of articles had the greatest impact on the stock market (DJIA, S&P500, Russell 2000) and then creating a tool to determine the impact of current articles on the market.
+# Clickbait
+### Analyze news headlines from 2020 and create a tool to determine the impact of current articles on the DJIA, S&P 500, & Russell 2000
 
 ## Presented By:
 - Shrey Dudhia
@@ -14,19 +14,11 @@ Project Start: December 19, 2020
 Project End Date: January 16, 2021
 
 ## Tasks:
-1. Collect sufficient articles for last 48 months (January 2016-December 2020) regarding the US economy, stock market, and politics (Shrey, Brandon)
-	- Kaggle
-	- Twitter
-	- AP News
-	- News API
-	- The Guardian
-<<<<<<< HEAD
-2. Collect market data for the last 48 months (January 2016 - December 2020) from DJIA, S&P500, and Russell 2000 (Shrey, Brandon)
-=======
-
-2. Collect market data for the last 16 months (January 2016 - December 2020) from DJIA, S&P500, and Russell 2000 (Shrey, Brandon)
->>>>>>> 4836d7d64bde89af409f51abed944933043b89a8
-2. Leverage **spaCy** Natural Language Processing to determine sentiment of articles by time period and by type (Aaron)
-3. Correlate sentiments to market movements (Hunter, Aaron)
-4. Train model to determine sentiment and predict future impact of current articles (Shana)
-5. Create presentation for project (Team)
+1. Collect headlines for 2020 regarding the US economy, US stock market, US President, Cryptocurrency OR Bitcoin OR Ethereum, and American politics
+	- **The Guardian API**
+2. Collect market movement data for 2020 (January 2016 - December 2020) from DJIA, S&P500, and Russell 2000
+    - **Google Finance**
+3. Leverage VADER sentiment analysis to determine sentiment of headlines
+4. Create models for the DJIA, SP500, and Russell 2000 indexs based on sentiment of headlines
+5. Export models to dashboard
+6. Create **Plotly Dash** dashboard allowing external users to type in text and predict market impact.
